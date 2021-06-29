@@ -1,0 +1,407 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <title>Blogging Website</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="Blogging.css">
+        <style type="text/css">
+        </style>
+    </head>
+
+    <body>
+        <header class="main_header">
+            <div class="d-flex justify-content-center align-items-center flex-column py-5">
+                <h1 class="text-uppercase main_heading">Project Work</h1>
+                <p class="main_heading__para">Welcome to my <span class="text-capitalize bg-dark text-white py-2 px-3"> Blogging Website</span> </p>
+            </div>
+            <!-- //the main image -->
+            <div class="main_header__div d-flex align-items-start
+        justify-content-center  flex-column shadow pl-5">
+                <p>Project Work</p>
+                <!-- <h2 class="text-uppercase">the Progammer guy</h2> -->
+                <h2 class="animateWord">
+                    <span>She is</span>
+                    <div>
+                      
+                        <ul class="flip4">
+                            <li> a Progammer </li>
+                            <li> Awesome </li>
+                        </ul>
+                    </div>
+                </h2>
+                <button class="text-uppercase">subscribe</button>
+            </div>
+        </header>
+        <!-- header ends -->
+        <!-- two sided blog part starts -->
+        <div class="container-fluid ">
+            <div class="row ">
+                <!-- to get the space form left and right -->
+                <div class="col-xl-10  col-lg-10 col-md-12 col-11 mx-auto my-5">
+                    <div class="row gx-5 mx-sm-auto">
+                        <!-- left side of the blog  -->
+                        <div class="col-lg-8 col-md-11 col-11 mx-auto">
+                            <div class="row gy-5 ">
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">Best Laptop in 2021</h1>
+                                        <p class="blog_title"> <span class="font-weight-bold"> Title description, </span> June 26, 2021 </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="https://images.pexels.com/photos/3815750/pexels-photo-3815750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">Project Work</span> Welcomes, all of you to my Blogging Website. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                                    <p>
+                                        Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                                    </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply1')">Replies <badge class="bg-white text-dark p-2">1</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply1">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-female-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Komal, </span> June 26, 2021, 4:20 PM </p>
+                                                <p>Awesome, I love your content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 2nd topic  -->
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">Title Heading</h1>
+                                        <p class="blog_title"> <span class="font-weight-bold"> Title description, </span> June 26, 2021 </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="https://images.pexels.com/photos/4050291/pexels-photo-4050291.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">Project Work</span> Welcomes, all of you to my Blogging Website. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                                    <p>
+                                        Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                                    </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply2')">Replies <badge class="bg-white text-dark p-2">2</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply2">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-female-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Komal, </span> June 26, 2021, 5:00 PM </p>
+                                                <p>I really like your content</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-female-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Nutan, </span> June 26, 2021, 5:15 PM </p>
+                                                <p>Awesome, I Like Your Content</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- 3rd topic -->
+                                <div class="col-12 card p-4 shadow blog_left__div">
+                                    <div class="d-flex justify-content-center align-items-center flex-column pt-3 pb-5 ">
+                                        <h1 class="text-uppercase">Title Heading</h1>
+                                        <p class="blog_title"> <span class="font-weight-bold"> Title description, </span> June 26, 2021 </p>
+                                    </div>
+                                    <figure class="right_side_img mb-5">
+                                        <img src="https://images.pexels.com/photos/4050303/pexels-photo-4050303.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid shadow">
+                                    </figure>
+                                    <p><span class="font-weight-bold">Project Work</span> Welcomes, all of you to my Blogging Website. Some text about this blog entry. Fashion fashion and mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sedtellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                                    <p>
+                                        Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+                                    </p>
+                                    <div class="d-flex justify-content-between left_div_btns">
+                                        <div>
+                                            <button class="left_div__like" id="like_btn"><i class="fa fa-thumbs-up"></i>Like</button>
+                                        </div>
+                                        <div>
+                                            <button class="left_div__reply" onclick="reply('reply3')">Replies <badge class="bg-white text-dark p-2">4</badge></button>
+                                        </div>
+                                    </div>
+                                    <div class="replies" id="reply3">
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Abhishek, </span> June 26, 2021, 7:08 PM </p>
+                                                <p>Awesome, I love your content.</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-female-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Arzoo, </span> June 26, 2021, 7:45 PM </p>
+                                                <p>Awesome, I love your content.</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-male-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Mani, </span> June 27, 2021, 7:58 PM </p>
+                                                <p>Awesome, I love your content.</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-start flex-row align-items-center card reply_card py-3 ">
+                                            <div class=" reply_img mx-2 align-self-center ">
+                                                <img src="https://img.icons8.com/doodle/48/000000/user-female-skin-type-5.png" />
+                                            </div>
+                                            <div class="reply_text__left">
+                                                <p class="blog_title "> <span class="font-weight-bold"> Tannu, </span> June 27, 2021, 8:20 PM </p>
+                                                <p>Awesome, I love your content.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--  *******************************************************
+            **********************************************************.
+            right side of the div
+            *******************************************************
+            **********************************************************
+            -->
+                        <div class="col-lg-3 col-md-7 col-11  justify-content-end m-lg-0 m-auto ">
+                            <div class="row gy-5 left_div__blog">
+                                <!-- about me -->
+                                <div class="col-12  about_me_div shadow">
+                                    <figure>
+                                   <img src="C:\Users\home\Pictures\Screenshots\BeautyPlus_20200522201340439_save.jpg" class="img-fluid shadow">
+                                    </figure>
+                                    <p>Komal Choudhary</p>
+                                    <p>Just me, myself and I, exploring the universe of uknownment. I have a heart of love and a interest of lorem ipsum and mauris neque quam blog. I want to share my Blogging Website with you.</p>
+                                </div>
+                                <!-- popular post -->
+                                <div class=" popular_post ">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Popular Posts</h2>
+                                    </div>
+                                    <div class="right_sub__div shadow">
+                                        <div class="row ">
+                                            <div class="col-3  popular_post__img1 py-2 pl-2">
+                                            </div>
+                                            <div class="col-9">
+                                                <figure>
+                                                    <img src="https://media.gettyimages.com/photos/cochairman-and-cofounder-of-the-the-bill-and-melinda-gates-foundation-picture-id946971500?s=612x612" class="img-fluid shadow">
+                                                </figure>
+                                                <h3>Bill Gates</h3>
+                                                <p class="text-capitalize">CEO Microsoft</p>
+                                            </div>
+                                        </div>
+                                        <div class="row ">
+                                            <div class="col-3  popular_post__img2 py-2 pl-2">
+                                            </div>
+                                            <div class="col-9">
+                                                <figure>
+                                                    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEBIPEA8PFQ8VDw8PEBUVDxUPEBUVFRUWFhUVFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OFxAQGi0lHSUrKy0tLS0tLS0tKy0tLS0tLS0rLS0rLS0tLS0tLS0tLS0tLS0tLS0rLS0tLS0tLS0tLf/AABEIAPsAyQMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAACAwEEBQYAB//EADsQAAIBAgQDBgQFAgUFAQAAAAECAAMRBBIhMQVBUQYiYXGBkROhwfAjMkKx0RThBzRSgvFDcpKishX/xAAZAQEBAQEBAQAAAAAAAAAAAAABAAIDBAX/xAAgEQEBAAICAwEBAQEAAAAAAAAAAQIRAyESMVEEQXEi/9oADAMBAAIRAxEAPwD5aBCAngIQE9Lm8BDAngIYEdBAEILJAhgRQQIQWEFhhZAAWEFjAsILFFhYQWGFhhZArLCCxgWTlkissnLGsANSQB7SVAO0kTknssflnsskQUg5ZYyyCstJXKwSssFYJWRVysArLDLAKwSuVg2jysHLDRUgIYEgQwJJIEICeAhgRTwEMLPKIwCQQBDAkgQwIhAWGFkgQrcztFICyKjhRcmwmdjuIm4SmQN7sfpE5GK5ixJvbX95xy5pPTrjxW+z6/EtbLa3WZ9bEX/Vcnxv9JVxFBr3Iiw3IjS089yt9u0knpZYlxfvWB5kkS7gcU1MHugg873H/MzGpjkf4j8PVC79f9sLsxt0seeYBHUH95apYpGNr2bodJhvVFNhmW6Eb+fQiPr0SpWxJRgpQncG2330m5zZT2zeLG+m5lkFYzCUSUB30PmLWDA+I/Ywss9WGczm48+WNxuqQVgFZYKwCs0yrlYsrLLLFssCrssDLHssC0EzRGAQVhiUIgIaiCsYsgJRGAQVjFEUkCGonlEYoiHlWUuJ4gD8MbnVvKaG2vrMGoC16p5sfv76TlzZamnTix3dqgbXMRzIl2jhwqhmYEm4HO2l4ijSuVQ8gWPkSPqZqJhgbLysLaXHjPHa9WM2prRXRyDbRevh/JiMZw3K1hfK2o+/ab6cLrhbik7Df8pIHSTTDLY1abXAsAwsBb95nyb8HN4/hzUwDyyg/SVaK66+s6riANWn8NF3YM7bXtyUchK1LglRm7qXAUnptufL+Y+TNw76ZVNqeqWYgiwF7kEX1HhLHD8Uyqq1KZNM2U6G2tipH+k+MZSwioxLgjLysfu38yy2OWnZqR2GoIuptptzBH7S2NOi4S3xEuBexVKh2N1Bs9vEXB8hIxuHyNt3TqPrMTB4w0PxQbBgAutxfle3hNX+rerU79u7TCi1ram97ib4crjl/rPLjMsQFYJWPIgFZ9B4ldli2WWGEWwgVZhAtHsIFoFkLDEEQxBCWNWAsYsUJRGqICxqxAlEYogqI1REK/EXy0m6myj10mMynYE6C337GanHF/DW3Kov7GZFKqQxueYM8nPf+no4vSxhhmItyXLt7zsOzPDg7Cqw7ijKnidyZhcKoKxF9iNbTvOGgKoCjQAACeXJ7OOOiw9O62sNonHdnaVYd4a+xlrAHTxmjTEfbe9OQHYgZrioQOlgbzoeHcAp0VIAuTo5JuT5ffOaqnWNvGYwXKuT472Qw+I1ZbMNiujTAP8AhzRH/UdmG159DqnWIy3MNJwtXsEz0z3rEC6/qzEG9rctJjJgxT/CcFXB203B09xefWSbCcH26w2WpTxC2GoD9D0v8/cy9WWMWbc8VgMI8iLYT6r5iuwi2EsMIphBK7CBaNcQIFiiEIKw1mSNY1YtYxYoxY1RFrGrEGLGqItY1IhV4vRZ6RCKzNmU2UEm19dBOUxFUhhuCNDcWI8CJ9Bo4dyhqIxVlYEEG3jMDtphw/w8QqKrEZa4Gnf3DeIIni5st56e3j4rOOZI7NuWYLz3M7/h72sP+JxvY3D90tbXadNTw7O+5CXtpztvODvh1HY4XEJYWI+k0aOKp83X3nOYc4Sn3ajE6XIzEgeYG0fVGCfVKgA65iV9W2+cdVq11OHKNswjTQPpOYoV/hEDkdtZsriGy3BNpoWLNWiRzg0rc5iY7iZ/Ku8y6FWtm/zKLrsTcj0vBfx2OJp6XG04Lt5UzBaWl2ZfDnuPYzepcQxFK1zTdb8ri48py3akPWx1M0wbLTVrc+8HNx4i0LO2LdRmkQGEaYtp9V8whhFNHtEtAkOIFox4uZLDENYAhrMkxY1YpY1YgxY1YtYxYo1Y5YpY1YhscDrDv0j+sDL57W9j8pHanhTOrFVGULlJtqentKWDfK6N0ZT852OPr56TCx07xFtRf954v0Y6y2+j+bPfH4/HE9mCFp7eE71MFejTZQCwHvfrOH4bRCkqOdRjPoXCX7ig9BpOG+3STpy9bsy9Vaq1TdntlFiAhve/jfnH9lOyJw2Y12FUmktKnY/DygajUKNR63uZ2v8ATK2uXX2kNhlA/vNz0LjN7Yv/AOf8KnlZw2ptbkB98ppLiAKFudrXlDiL3uBtHUqZNKwmd99OnjvuqVThhqWOYhNc9iC3tcfXynHUsJxBcQKR+MlH4oPxBVIT4egK5AMo/Ub+lp32De4KneP+A3I28wCJqWOdx25zh9KqlVgc2S9lumQOLizAepBt9Y3jVBhjSV0DYWip30PeuPWw9p2XDqahctQZtbgkbHwnNdo3CtWqc86InolvqTDVtkilku8vUciYtowxTT6j5RTRLRzRLQJLxcY8XMlhCMWLENZkmrGrEqY1TEGrGrErGqYo5Y1YlY1TEHLOq4Pi1qUWDH8QLl31KjacopkYon4b5SQcjWINjtOfLh54uvDyeGS5wxvxPC7fvO94O15874GNR1Gk7Xg9cg25z5z6MdcjC2lojFOoFyZn1eJZe6NWPLp4npKuOrE0zrdiCPCNpivi8QSbBdCbCa3C1PwyDyI1nIpx1UdVroUsbBt0PqPrOrw/FKHwu667Ak3hjHTKzXR2Lw2SoNO6dmGxMsoLCZTdoaVRPgIQ7XDAjUKQd82w0v7x1DHXuhNmtcc4ufem5QqqRY7zie19WxWnzzM59rD6ze/q7MBOL47i/i16j8r5B5KMv0J9Z6Pz47z38eX9GXjjr6oMYpoTGLYz3PCBjEtGMYpjAlPAhOYF5ksIQxFiGJmE1YxTEqYxTJHqY1TEKYxTELCmMUxCmNUzQPUw9wR4GV3qqoLMQFG5JsJk1e0ILBKa3uwXMfE20EMspJ2ZjbenQcBqfjFTzM7PAplrryDIPcaT587GlUV+V9Z3uBxIdabg7T5dfTjexPDQQzLbPlulzYX8ZyWH7QVfitQqYRs6kA5WDA3NgR4GdwKt0BG85vjeFtWSshyuGBDDqCDlbqpsNJqRvHsmtUwtYEVUZL6d5cuu3OUaXBMOp/zDFeS5ja3l0lzh/GMbT7lehRr0wDY3FCpdiSbs10PIfp9ZHFOJAKFXh1FXysLtWpuASNx8MG487RNmW9aVzjcLRIAqpfYAfmPkBqTNqnw+o2SrYrvpsbeI5TE4DwlHxjYp0AY5cq7qiqLKBpvubzs+I4oJT8bWEzYMtysGrUy1Ln8q3ZvJe8ff+Zyrve5O5NzNXiuLspUHVrX8tz8/rMUtPb+bHWO/r5/6ct5aeJi2MkmLYz0POhjFMZLGKYwIWMG88xgXgWKIYixCEwTRDBigYYMUcpjVMQpjFMQepgYvGrSXM2/IczAq1giljsBOcxVdqjZj5AdB0EzlnprHHb2Nxr1m7x05AbD76xuEpWelpoaif/QlnBYBVU1auwF7ffOBQLVcQjEWAcEKNgB1nnydsZ6dni8NmTbleO7L4+16LHbaXqFK6+kweLYZqLiqnXWeePXeu30/hmLzKF56gwsbRvoRcTi+B8cAKEnQmx8DO/pVFqL6ShlZdFyl1DAra1mAMDEFWtcIotyW00WwIPWJbADYnTpNeTpMr9J4XTAuRtKHafiC0kNR2siKWPt8+lupmzjHWjT5AW1nyf8AxNx7v8KkCbMGrOPAGyX9mPtCTdcc8tTa1huLpibuja81P5l8LRxafPeFlhVUobEG58uc7sPoPIT6HHluafOzmqaWi2aCWgFptlLGKYzzNFsYJDGBmnmMC8CyhCEAQhMkwQgYsGEDFGgximJBhgySjxiqe6nK2Y/sPrF8Ow9++fIfzPcWFmVjsRl9Rc/flG4fG01QC5uB05zjl7dcfSxUJe1PZQ2p6nl7TbpcI+EgY/mJU+QvtOc/r0AP5r3B6azbrds6RRUai+YBQxzDW29hOXJL/HbjuM3t2XDkuoh4/BB1ItymH2d7R06rBSrICCVZmXKbWuD0OonZKtxpOWrPb0TKWdPmOOw70GNr5CZ0nZvtaFASodRoDyM0OMcNDg6azjsZwUgkrcRZss9PrOH49RcAhh7xHEO0FCmMzOBYbX1nynD8MxB0V7e4+s1MHwHvD4zFj4nSK3XQ0sfUx7iwK0Abi/6v7ThO2dXPjqwBuEy0R/sAv/7Fp9HqYhcJRLgDMFOQfWfIaxYvUZjcsxcnqWJJ+ZjhO3Pk9KgYo+Zd50vD+MJUsG7r+Ox8phVMNmGm8qKhvbY8/AdZ2xyuLz5Y7duWglpzuC4sVYKzEroNdTN0tO8ylcrNJLQGaCWgFohLGBeCWkZoFniFAEIGZIgYQMC8RUxYG2p+Ut6Um1zNbUypiOIW0XU9TtKdSsW3MURMXP41MfpGJqsxuxJMlGnqiRdNiNJzbW1aLqGSCYLRTR4SbtvY2M7jsx2gak4o1SfhE5Rf9B5en83nz/h72ces2ne4B9/v3HtDW41jddvsNWnmEy8Vw8HlpPdlsa1bDU2bVhdGPUqSL+osfWadQicnql25mpQNM3F/aThWOfMRczXxAWZ9XTYaSTJ7TYr8Mgm7HScTihqvl+xm9x6sS2XnMbEAaf8AbOuE1Hn5LvJVJsJRxFe5k4qtc2G09Qo/qYeQ+pi5rHD6GUio4B1uo+p8ZtrilPPXx0mN8SQak1jlpmzbcLQS0x6eIK7H+JcpYsNodD8p0mUrFx0sEyLwSYN5oKoi6uIC+co1MYx20ibzjc/jcxWKuILeUXeBJBmdtjEmCDJkkESvVS2ssyCIIqm94TnSKqIRqJK1LyRlOpYg+IM2lqaaecwBLeDxNu6duUi+qf4ZVw6VaN+8rCoB1VgFNvIgf+U7arhLz4Zw3GvRcOjup2JVirWPQj09p1VDtXjkFhXzC2mZFb5kXhcN+nXHk1NV9BPDbzG7RV6OFXvkF7XWmD3j0v0E5Ov2nxz3Hx2AO+VVQn1AvMeqWYlnYljqSSSTGcf1ZcvwNaqzs1RtydPWYvEcTdiq7aD+0t8TxWUZR+Y/IfzMyinM78pq/HFNGnbU7xrSVE88gXeQxkMZ47SQc8kGIYwqbQTRo4vYGWs3iJjkz3xJqZUeMVYQMCSJzaMEmADJvFCvCBgXkyQ5F4N5N5IRiKlLpHXnpJUzGTe8cyXgfDBkljC4u1g3p/E3sBiARlJ0/SfpOWKGW8DibHKdjsehjLpOpt1JgVnCiIwuIzaHeK4lUss6b6TMZs7lj6fSEdNIumbD7tJzg/qE5g1TPNFhh/qHvCY+3vFEVZFN+UmrrK4MEl95CHWQxkKdYEaPe8HPB2PrDywRcmCJMkIGEDFX1hyQryYN5IMUKevInhJCEIQQZ68kKA3WSJ6SAfX5QSt4wzwkmhw7Eagnyb+Y3iz7CUMPofONxj5mHkv9/wBo76RDIL/ZiqwjC1zBqQRWaEtQjUGCRBglgVgd9D8vaKMG89eKTBnryZJB3jM0Wd4V4IsSYIhSSDDBgNJBkhyRBBk3ihXkXgyQZIYMm8C8kGSFPXkXnrySTBE9eekjaTSaja/fT+89gvzqOpttca+EdxTKWVlChWXQKLAW0PPWSVRIYwbz15JMgiReTJAnpJgwT0kQZIMkgnWTmgneRBPQhBkxTxnhPGeEkK8mCJMkmenpEkK89InpIV5MESYp688DInpJZwZHxFJvYXbTckAkAeZAHrHcU/SbAAZlGwvsSbDztfz6GUY3GKA2g5CSKvInjIgkyYM9JJJgyZBkkGQJ6RJJMiSZEE//2Q==" class="img-fluid shadow">
+                                                </figure>
+                                                <h3>Mark Zuckerberg </h3>
+                                                <p class="text-capitalize">Progammer</p>
+                                            </div>
+                                        </div>
+                                        <div class="row ">
+                                            <div class="col-3  popular_post__img3 py-2 pl-2">
+                                            </div>
+                                            <div class="col-9">
+                                                <figure>
+                                                    <img src="data:image/jpeg;base64,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" class="img-fluid shadow"> 
+                                                </figure>
+                                                <h3>Jeff Bezos</h3>
+                                                <p class="text-capitalize">Amazon</p>
+                                            </div>
+                                        </div>
+                                        <div class="row ">
+                                            <div class="col-3  popular_post__img4 py-2 pl-2">
+                                            </div>
+                                            <div class="col-9">
+                                                <figure>
+                                                    <img src="data:image/jpeg;base64,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" class="img-fluid shadow">
+                                                </figure>
+                                                <h3>Steve Jobs</h3>
+                                                <p class="text-capitalize">Apple</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- advertise -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Advertise</h2>
+                                    </div>
+                                    <div class="right_sub__div ">
+                                        <div class="adevetise_img bg-light shadow">
+                                            <p>Ads goes here</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- tags -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Tags</h2>
+                                    </div>
+                                    <div class="tags_main right_sub__div">
+                                        <a href="https://youtu.be/5p8e2ZkbOFU" target="_thapa" class="badge shadow text-capitalize"> html </a>
+                                        <a href="#" class="badge shadow text-capitalize"> css </a>
+                                        <a href="#" class="badge shadow text-capitalize"> js </a>
+                                        <a href="#" class="badge shadow text-capitalize"> react </a>
+                                        <a href="#" class="badge shadow text-capitalize"> vue </a>
+                                        <a href="#" class="badge shadow text-capitalize"> php </a>
+                                        <a href="#" class="badge shadow text-capitalize"> python </a>
+                                        <a href="#" class="badge shadow text-capitalize"> kotlin </a>
+                                        <a href="#" class="badge shadow text-capitalize"> c++ </a>
+                                        <a href="#" class="badge shadow text-capitalize"> java </a>
+                                    </div>
+                                </div>
+                                <!-- Inspiration -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Inspiration</h2>
+                                    </div>
+                                    <div class="right_sub__div">
+                                        <div class="row gx-3">
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.pexels.com/photos/196659/pexels-photo-196659.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.pexels.com/photos/34140/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.pexels.com/photos/38547/office-freelancer-computer-business-38547.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                            <div class="col-6">
+                                                <figure>
+                                                    <img src="https://images.pexels.com/photos/196659/pexels-photo-196659.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="img-fluid shadow">
+                                                </figure>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Follow Me -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Follow Me</h2>
+                                    </div>
+                                    <div class="right_sub__div d-flex justify-content-around">
+                                        <a href="https://www.facebook.com/profile.php?id=100051514692032"><i class="fab fa-facebook-square fa-3x"></i></a>
+                                        <a href="https://www.instagram.com/komal_choudhary2313/"><i class="fab fa-3x fa-instagram"></i></a>
+                                        <a href="https://github.com/komal2313/komal_FSD"> <i class="fab fa-3x fa-github-square"></i> </a>
+                                        <a href="https://www.twitter.com/KomalKu78001782?=08"><i class="fab fa-3x fa-twitter-square"></i></a>
+                                        <a href="https://www.youtube.com/watch?v=1WBw35TFYUE"> <i class="fab fa-3x fa-youtube-square"></i> </a>
+                                        <a href="www.linkedin.com/in/komal-kumari-a63b97215"><i class="fab fa-3x fa-linkedin"></i></a>
+                                    </div>
+                                </div>
+                                <!-- Subscribe -->
+                                <div class=" right_div_post">
+                                    <div class="right_div__title py-4 pl-2 ">
+                                        <h2>Subscribe</h2>
+                                    </div>
+                                    <div class="right_sub__div">
+                                        <form>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Enter your e-mail below and get notified on the latest blog posts.</label>
+                                                <input type="email" class="form-control mt-2" id="exampleFormControlInput1" placeholder="name@example.com">
+                                            </div>
+                                            <div class="col-12">
+                                                <button class="subs_btn d-block" type="submit">Subscribe</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p class="text-center py-5 bg-light">design with love By ©Projec-tWORK</p>
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- Popper.js first, then Bootstrap JS -->
+        <!--Backend code to html-->
+
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+        const like = document.getElementById('like_btn');
+        const singleClick = () => {
+            like.style.fontWeight = 'bold';
+            like.style.background = '#bbe1fa';
+            like.style.color = '#1b262c';
+            like.innerHTML = "✓ Liked";
+        }
+        const doubleClick = () => {
+            like.style.fontWeight = 'normal';
+            like.style.background = '#3282b8';
+            like.style.color = '#fff';
+            like.innerHTML = "Like";
+        }
+        var clickCount = 0;
+        like.addEventListener('click', function() {
+            clickCount++;
+            if (clickCount === 1) {
+                singleClickTimer = setTimeout(function() {
+                    clickCount = 0;
+                    singleClick();
+                }, 400);
+            } else if (clickCount === 2) {
+                clearTimeout(singleClickTimer);
+                clickCount = 0;
+                doubleClick();
+            }
+        }, false);
+        // show and hide the replies
+        const reply = (rep) => {
+            console.log('hi');
+            // debugger;
+            var res = document.getElementById(rep);
+            console.log(res);
+            if (res.className == "replies") {
+                res.className = "project_show";
+                res.style.WebkitTransition = 'all 0.3s ease';
+                // res.style.transition = 'all 0.3s ease';
+                // console.log(project_show);
+            } else if (res.className == 'project_show') {
+                // res.className = " ";
+                console.log('thapa show');
+                res.className = "replies";
+            }
+        }
+        </script>
+    </body>
+
+</html>
